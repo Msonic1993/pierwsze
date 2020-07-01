@@ -45,7 +45,7 @@ $wynik = $db->query($zapytanie);
 
 $ile_znalezionych = $wynik->num_rows;
 
-echo "<p> Ilość znalezionych pozycju: ".$ile_znalezionych."</p>";
+echo "<p> Ilość znalezionych pozycji: ".$ile_znalezionych."</p>";
 
 for ($i=0; $i <$ile_znalezionych; $i++) {
 	$wiersz = $wynik->fetch_assoc();
