@@ -24,10 +24,10 @@ if (!get_magic_quotes_gpc()) {
 	$metoda_szukania = addcslashes($metoda_szukania);
 	$wyrazenie = addcslashes($wyrazenie);
 }
-$servername = "s27.hekko.net.pl";
-$username = "sancrow_znanylekarz";
-$password = "1Ketiow1";
-$base = "sancrow_znanylekarz";
+$servername = "s27.x.x.pl";
+$username = "x";
+$password = "x";
+$base = "x_znanylekarz";
 
 // Create connection
 @ $db = new mysqli($servername, $username, $password, $base);
